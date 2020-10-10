@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DDDTaiwan2020.Domain</Name>
+    <Description>Clean Architecture (CQRS) 的 Domain 層範本.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DDDTaiwan2020.Domain</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.png</Icon>
+	<LanguageTag>csharp</LanguageTag>
+	<PlatformTag>macOS</PlatformTag>
+	<PlatformTag>Linux</PlatformTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>library</ProjectTypeTag>
+    <ProjectTypeTag>Clean Architecture (CQRS)</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DDDTaiwan2020.Domain.csproj" File="DDDTaiwan2020.Domain.csproj" ReplaceParameters="true">
+      <Folder Name="Common" TargetFolderName="Common">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AuditableEntity.cs">AuditableEntity.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValueObject.cs">ValueObject.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Entities" TargetFolderName="Entities" />
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+	<Assembly>CleanArchitectureCQRSTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5c17f6b1ec946263</Assembly>
+	<FullClassName>CleanArchitectureCQRSTemplate.WizardImp.DomainLayerWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

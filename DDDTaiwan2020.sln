@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSIXExtension", "VSIXExtension", "{D48FD6E5-1672-4603-BCEC-7FBDB35B5206}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{35F0E33B-987E-4457-AFCF-4E861734F5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureCQRS", "CleanArchitectureCQRSTemplate\CleanArchitectureCQRS.csproj", "{50FFFAD5-4679-43BE-9BA3-4E9878AF6C7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6FE4A72C-9990-4884-8890-3E76FC1C75FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8120A25F-3D45-42C0-A4FE-C854793F26EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTaiwan2020.Application", "DDDTaiwan2020.Application\DDDTaiwan2020.Application.csproj", "{A923C55A-536B-49C0-BC6B-D92D1D375BDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTaiwan2020.Domain", "DDDTaiwan2020.Domain\DDDTaiwan2020.Domain.csproj", "{155083EA-7E5F-4757-8D7D-9ADD1C8838D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A66B3D15-45BB-45E7-8E96-C8B97763D8AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTaiwan2020.Infrastructure", "DDDTaiwan2020.Infrastructure\DDDTaiwan2020.Infrastructure.csproj", "{E581E801-6B07-4406-ABBD-728BCCE79FDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FFFAD5-4679-43BE-9BA3-4E9878AF6C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FFFAD5-4679-43BE-9BA3-4E9878AF6C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FFFAD5-4679-43BE-9BA3-4E9878AF6C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FFFAD5-4679-43BE-9BA3-4E9878AF6C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A923C55A-536B-49C0-BC6B-D92D1D375BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A923C55A-536B-49C0-BC6B-D92D1D375BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A923C55A-536B-49C0-BC6B-D92D1D375BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A923C55A-536B-49C0-BC6B-D92D1D375BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155083EA-7E5F-4757-8D7D-9ADD1C8838D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155083EA-7E5F-4757-8D7D-9ADD1C8838D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155083EA-7E5F-4757-8D7D-9ADD1C8838D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155083EA-7E5F-4757-8D7D-9ADD1C8838D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E581E801-6B07-4406-ABBD-728BCCE79FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E581E801-6B07-4406-ABBD-728BCCE79FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E581E801-6B07-4406-ABBD-728BCCE79FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E581E801-6B07-4406-ABBD-728BCCE79FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50FFFAD5-4679-43BE-9BA3-4E9878AF6C7A} = {D48FD6E5-1672-4603-BCEC-7FBDB35B5206}
+		{6FE4A72C-9990-4884-8890-3E76FC1C75FD} = {35F0E33B-987E-4457-AFCF-4E861734F5D0}
+		{8120A25F-3D45-42C0-A4FE-C854793F26EB} = {35F0E33B-987E-4457-AFCF-4E861734F5D0}
+		{A923C55A-536B-49C0-BC6B-D92D1D375BDC} = {6FE4A72C-9990-4884-8890-3E76FC1C75FD}
+		{155083EA-7E5F-4757-8D7D-9ADD1C8838D4} = {8120A25F-3D45-42C0-A4FE-C854793F26EB}
+		{A66B3D15-45BB-45E7-8E96-C8B97763D8AF} = {35F0E33B-987E-4457-AFCF-4E861734F5D0}
+		{E581E801-6B07-4406-ABBD-728BCCE79FDC} = {A66B3D15-45BB-45E7-8E96-C8B97763D8AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17A10E69-BBA6-4BC2-A69A-C92B26D0829C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gelistfs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DDDTaiwan2020.Application\\DDDTaiwan2020.Application.csproj
+		SccProjectTopLevelParentUniqueName1 = DDDTaiwan2020.sln
+		SccProjectName1 = DDDTaiwan2020.Application
+		SccLocalPath1 = DDDTaiwan2020.Application
+		SccProjectUniqueName2 = DDDTaiwan2020.Domain\\DDDTaiwan2020.Domain.csproj
+		SccProjectTopLevelParentUniqueName2 = DDDTaiwan2020.sln
+		SccProjectName2 = DDDTaiwan2020.Domain
+		SccLocalPath2 = DDDTaiwan2020.Domain
+		SccProjectUniqueName3 = CleanArchitectureCQRSTemplate\\CleanArchitectureCQRS.csproj
+		SccProjectTopLevelParentUniqueName3 = DDDTaiwan2020.sln
+		SccProjectName3 = CleanArchitectureCQRSTemplate
+		SccLocalPath3 = CleanArchitectureCQRSTemplate
+		SccProjectUniqueName4 = DDDTaiwan2020.Infrastructure\\DDDTaiwan2020.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName4 = DDDTaiwan2020.sln
+		SccProjectName4 = DDDTaiwan2020.Infrastructure
+		SccLocalPath4 = DDDTaiwan2020.Infrastructure
+	EndGlobalSection
+EndGlobal

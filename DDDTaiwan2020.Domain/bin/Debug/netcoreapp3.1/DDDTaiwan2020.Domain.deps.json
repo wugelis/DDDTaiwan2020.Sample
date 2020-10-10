@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DDDTaiwan2020.Domain/1.0.0": {
+        "runtime": {
+          "DDDTaiwan2020.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDDTaiwan2020.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

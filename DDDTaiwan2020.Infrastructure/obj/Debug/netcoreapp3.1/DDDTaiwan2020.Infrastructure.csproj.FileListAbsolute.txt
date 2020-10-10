@@ -1,0 +1,12 @@
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.deps.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.runtimeconfig.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.runtimeconfig.dev.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.dll
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.pdb
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.AssemblyInfoInputs.cache
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.AssemblyInfo.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.dll
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.pdb
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.genruntimeconfig.cache
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Infrastructure\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Infrastructure.csprojAssemblyReference.cache

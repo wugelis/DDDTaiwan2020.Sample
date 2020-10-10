@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SQLStoreDataSet" targetNamespace="http://tempuri.org/SQLStoreDataSet.xsd" xmlns:mstns="http://tempuri.org/SQLStoreDataSet.xsd" xmlns="http://tempuri.org/SQLStoreDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SQLStoreDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SQLStoreDataSet" msprop:Generator_UserDSName="SQLStoreDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SqlConnectionTable" msprop:Generator_TableClassName="SqlConnectionTableDataTable" msprop:Generator_TableVarName="tableSqlConnectionTable" msprop:Generator_TablePropName="SqlConnectionTable" msprop:Generator_RowDeletingName="SqlConnectionTableRowDeleting" msprop:Generator_RowChangingName="SqlConnectionTableRowChanging" msprop:Generator_RowEvHandlerName="SqlConnectionTableRowChangeEventHandler" msprop:Generator_RowDeletedName="SqlConnectionTableRowDeleted" msprop:Generator_UserTableName="SqlConnectionTable" msprop:Generator_RowChangedName="SqlConnectionTableRowChanged" msprop:Generator_RowEvArgName="SqlConnectionTableRowChangeEvent" msprop:Generator_RowClassName="SqlConnectionTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ConnName" msprop:Generator_ColumnVarNameInTable="columnConnName" msprop:Generator_ColumnPropNameInRow="ConnName" msprop:Generator_ColumnPropNameInTable="ConnNameColumn" msprop:Generator_UserColumnName="ConnName" type="xs:string" />
+              <xs:element name="DataSourceName" msprop:Generator_ColumnVarNameInTable="columnDataSourceName" msprop:Generator_ColumnPropNameInRow="DataSourceName" msprop:Generator_ColumnPropNameInTable="DataSourceNameColumn" msprop:Generator_UserColumnName="DataSourceName" type="xs:string" minOccurs="0" />
+              <xs:element name="InitialCatalogName" msprop:Generator_ColumnVarNameInTable="columnInitialCatalogName" msprop:Generator_ColumnPropNameInRow="InitialCatalogName" msprop:Generator_ColumnPropNameInTable="InitialCatalogNameColumn" msprop:Generator_UserColumnName="InitialCatalogName" type="xs:string" minOccurs="0" />
+              <xs:element name="UserId" msprop:Generator_ColumnVarNameInTable="columnUserId" msprop:Generator_ColumnPropNameInRow="UserId" msprop:Generator_ColumnPropNameInTable="UserIdColumn" msprop:Generator_UserColumnName="UserId" type="xs:string" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" msprop:Generator_UserColumnName="Password" type="xs:string" minOccurs="0" />
+              <xs:element name="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" msprop:Generator_UserColumnName="IsDefault" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AttachDbFilename" msprop:Generator_ColumnVarNameInTable="columnAttachDbFilename" msprop:Generator_ColumnPropNameInRow="AttachDbFilename" msprop:Generator_ColumnPropNameInTable="AttachDbFilenameColumn" msprop:Generator_UserColumnName="AttachDbFilename" type="xs:string" minOccurs="0" />
+              <xs:element name="IntegratedSecurity" msprop:Generator_ColumnVarNameInTable="columnIntegratedSecurity" msprop:Generator_ColumnPropNameInRow="IntegratedSecurity" msprop:Generator_ColumnPropNameInTable="IntegratedSecurityColumn" msprop:Generator_UserColumnName="IntegratedSecurity" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="UseLocalDB" msprop:Generator_ColumnVarNameInTable="columnUseLocalDB" msprop:Generator_ColumnPropNameInRow="UseLocalDB" msprop:Generator_ColumnPropNameInTable="UseLocalDBColumn" msprop:Generator_UserColumnName="UseLocalDB" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="AuthType" msprop:Generator_ColumnVarNameInTable="columnAuthType" msprop:Generator_ColumnPropNameInRow="AuthType" msprop:Generator_ColumnPropNameInTable="AuthTypeColumn" msprop:Generator_UserColumnName="AuthType" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SQLTable" msprop:Generator_TableClassName="SQLTableDataTable" msprop:Generator_TableVarName="tableSQLTable" msprop:Generator_RowChangedName="SQLTableRowChanged" msprop:Generator_TablePropName="SQLTable" msprop:Generator_RowDeletingName="SQLTableRowDeleting" msprop:Generator_RowChangingName="SQLTableRowChanging" msprop:Generator_RowEvHandlerName="SQLTableRowChangeEventHandler" msprop:Generator_RowDeletedName="SQLTableRowDeleted" msprop:Generator_RowClassName="SQLTableRow" msprop:Generator_UserTableName="SQLTable" msprop:Generator_RowEvArgName="SQLTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="SQL" msprop:Generator_ColumnVarNameInTable="columnSQL" msprop:Generator_ColumnPropNameInRow="SQL" msprop:Generator_ColumnPropNameInTable="SQLColumn" msprop:Generator_UserColumnName="SQL" type="xs:string" minOccurs="0" />
+              <xs:element name="SQLCommandName" msprop:Generator_ColumnVarNameInTable="columnSQLCommandName" msprop:Generator_ColumnPropNameInRow="SQLCommandName" msprop:Generator_ColumnPropNameInTable="SQLCommandNameColumn" msprop:Generator_UserColumnName="SQLCommandName" type="xs:string" minOccurs="0" />
+              <xs:element name="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" msprop:Generator_UserColumnName="CreateDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ModifyDate" msprop:Generator_ColumnVarNameInTable="columnModifyDate" msprop:Generator_ColumnPropNameInRow="ModifyDate" msprop:Generator_ColumnPropNameInTable="ModifyDateColumn" msprop:Generator_UserColumnName="ModifyDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

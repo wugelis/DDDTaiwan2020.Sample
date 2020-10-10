@@ -1,0 +1,100 @@
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application.zip
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain.zip
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\CleanArchitectureCQRSTemplate.vsix
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\extension.vsixmanifest
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\_EmptyResource.resources
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.csproj.GenerateResource.cache
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.csproj.CoreCompileInputs.cache
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.dll
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.pdb
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\extension.vsixmanifest
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\files.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\TemplateManifests\templateManifest0.1033.vstman
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\DDDTaiwan2020.Application.csproj
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\Users\Commands\NewUser\NewUserCommand.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\Users\Commands\NewUser\NewUserCommandHandler.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\__TemplateIcon.png
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\MyTemplate.vstemplate
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain\DDDTaiwan2020.Domain.csproj
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain\__TemplateIcon.png
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain\__PreviewImage.png
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain\MyTemplate.vstemplate
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\templateFiles.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain\__TemplateIcon.ico
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain\Comman\AuditableEntity.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain\Comman\ValueObject.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure.zip
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure\__TemplateIcon.png
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure\DDDTaiwan2020.Infrstructure.csproj
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure\MyTemplate.vstemplate
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure\Services\Identity\ApplicationUser.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure\Services\Identity\IdentityExtensionMethods.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure\Services\Identity\IdentityService.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.csproj.CopyComplete
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.Forms.frmApplicationLayerWizard.resources
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\Common\Interfaces\IIdentityServices.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\Common\Models\Result.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.Forms.ConnectionWindow.resources
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.Forms.frmGetDtoModel.resources
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application\Common\Interfaces\IApplicationDbContext.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrstructure\DependencyInjections.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\CleanArchitectureCQRSTemplate.csprojAssemblyReference.cache
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\bin\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI.zip
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\__TemplateIcon.png
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\appsettings.Development.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\appsettings.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Controllers\Api\MediatorApiController.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Controllers\HomeController.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Controllers\LoginController.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Models\ErrorViewModel.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\MyTemplate.vstemplate
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Program.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Properties\launchSettings.json
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Startup.cs
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\_ViewImports.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\_ViewStart.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\Home\Index.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\Home\Privacy.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\Home\Register.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\Shared\_Layout.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\Shared\_ValidationScriptsPartial.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\Views\Shared\Error.cshtml
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\WebCQRSApp1.csproj
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\css\site.css
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\favicon.ico
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\js\site.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\bootstrap\LICENSE
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery\dist\jquery.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery\dist\jquery.min.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery\dist\jquery.min.map
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery\LICENSE.txt
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation\LICENSE.md
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\CleanArchitectureCQRSTemplate\obj\Debug\ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

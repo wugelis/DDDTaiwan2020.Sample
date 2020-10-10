@@ -1,0 +1,110 @@
+﻿<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>DDDTaiwan2020.Application</Name>
+        <Description>Clean Architecture (CQRS) 的 Application 層範本.</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DDDTaiwan2020.Application</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <CreateInPlace>true</CreateInPlace>
+        <Icon>__TemplateIcon.png</Icon>
+        <LanguageTag>csharp</LanguageTag>
+        <PlatformTag>macOS</PlatformTag>
+        <PlatformTag>Linux</PlatformTag>
+        <PlatformTag>windows</PlatformTag>
+        <ProjectTypeTag>library</ProjectTypeTag>
+        <ProjectTypeTag>Clean Architecture (CQRS)</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>DDDTaiwan2020.Domain</Name>
+        <Description>Clean Architecture (CQRS) 的 Domain 層範本.</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DDDTaiwan2020.Domain</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <CreateInPlace>true</CreateInPlace>
+        <Icon>__TemplateIcon.png</Icon>
+        <LanguageTag>csharp</LanguageTag>
+        <PlatformTag>macOS</PlatformTag>
+        <PlatformTag>Linux</PlatformTag>
+        <PlatformTag>windows</PlatformTag>
+        <ProjectTypeTag>library</ProjectTypeTag>
+        <ProjectTypeTag>Clean Architecture (CQRS)</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrastructure</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>DDDTaiwan2020.Infrastructure</Name>
+        <Description>Clean Architecture (CQRS) 的 Infrastructure 層範本.</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DDDTaiwan2020.Infrastructure</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <CreateInPlace>true</CreateInPlace>
+        <Icon>__TemplateIcon.png</Icon>
+        <LanguageTag>csharp</LanguageTag>
+        <PlatformTag>macOS</PlatformTag>
+        <PlatformTag>Linux</PlatformTag>
+        <PlatformTag>windows</PlatformTag>
+        <ProjectTypeTag>library</ProjectTypeTag>
+        <ProjectTypeTag>Clean Architecture (CQRS)</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>DDDTaiwan2020.WebUI</Name>
+        <Description>Clean Architecture (CQRS) 的 UI 層範本使用 ASP.NET Core 3.1</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>DDDTaiwan2020.WebUI</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <CreateInPlace>true</CreateInPlace>
+        <Icon>__TemplateIcon.png</Icon>
+        <LanguageTag>csharp</LanguageTag>
+        <PlatformTag>macOS</PlatformTag>
+        <PlatformTag>Linux</PlatformTag>
+        <PlatformTag>windows</PlatformTag>
+        <ProjectTypeTag>library</ProjectTypeTag>
+        <ProjectTypeTag>Clean Architecture (CQRS)</ProjectTypeTag>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

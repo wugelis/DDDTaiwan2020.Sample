@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DDDTaiwan2020.Infrstructure</Name>
+    <Description>Clean Architecture (CQRS) 的 Infrstructure 層範本.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DDDTaiwan2020.Infrstructure</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.png</Icon>
+ 	<LanguageTag>csharp</LanguageTag>
+	<PlatformTag>macOS</PlatformTag>
+	<PlatformTag>Linux</PlatformTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>library</ProjectTypeTag>
+    <ProjectTypeTag>Clean Architecture (CQRS)</ProjectTypeTag>
+ </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DDDTaiwan2020.Infrstructure.csproj" File="DDDTaiwan2020.Infrstructure.csproj" ReplaceParameters="true">
+      <Folder Name="Persistance" TargetFolderName="Persistance">
+        <Folder Name="Configurations" TargetFolderName="Configurations" />
+      </Folder>
+      <Folder Name="Services" TargetFolderName="Services">
+        <Folder Name="Identity" TargetFolderName="Identity">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationUser.cs">ApplicationUser.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IdentityExtensionMethods.cs">IdentityExtensionMethods.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IdentityService.cs">IdentityService.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DependencyInjections.cs">DependencyInjections.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
