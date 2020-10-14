@@ -168,7 +168,11 @@ namespace CleanArchitectureCQRSTemplate.Common
         /// <param name="project"></param>
         /// <param name="INTERFACE_FOLDER"></param>
         /// <param name="modelsFolder"></param>
-        public static void CreateDbContextFromSourceTables(Project project, ProjectItem modelsFolder)
+        /// <param name="projectNames"></param>
+        public static void CreateDbContextFromSourceTables(
+            Project project, 
+            ProjectItem modelsFolder, 
+            List<string> projectNames)
         {
             Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
 
@@ -176,21 +180,59 @@ namespace CleanArchitectureCQRSTemplate.Common
             string EntitiesName = "ApplicationDbContext"; // string.Format("{0}Model", ConnectionServices.ConnectionInfo.Initial_Catalog).ToUpperFirstWord().Replace(" ", "");
             string DbSetDefined = string.Empty;
 
+            bool haveRefInfra = projectNames.Count() > 0; // 是否有參照 Infrastructure 專案
+            bool completeUsing = false;
+            string appProjectName = haveRefInfra ? projectNames[0] : "";
+
             DbContextDefined = DbContextDefined.Replace("$(NAMESPACE_DEF)$", string.Format("{0}", project.Name));
             DbContextDefined = DbContextDefined.Replace("$(ENTITIES_DEF)$", EntitiesName);
+            if(haveRefInfra)
+            {
+                string domainProjectName = GetProjectNameFromDTE(project)
+                    .Where(c => c != appProjectName)
+                    .FirstOrDefault();
+
+                completeUsing = !string.IsNullOrEmpty(domainProjectName);
+
+                if(completeUsing)
+                {
+                    // 顯示 Confirm Windows 提示開發人員輸入 Domain Layer 專案名稱 提供 ApplicationDbContext 程式碼內容的 using 參考使用
+                    DbContextDefined = DbContextDefined.Replace("$(OTHER_NAMESPACE)$", $"\r\nusing {domainProjectName}.Entities;\r\nusing {appProjectName}.Common.Interfaces;");
+                }
+                else
+                {
+                    // 顯示 Confirm Windows 提示開發人員輸入 Domain Layer 專案名稱 提供 ApplicationDbContext 程式碼內容的 using 參考使用
+                    DbContextDefined = DbContextDefined.Replace("$(OTHER_NAMESPACE)$", $""); // 若目前方案中無法找到 domain 專案就清空該標籤
+                }
+
+                DbContextDefined = DbContextDefined.Replace("$(MARK_CODE)$", "");
+            }
+            else
+            {
+                DbContextDefined = DbContextDefined.Replace("$(OTHER_NAMESPACE)$", "");
+                DbContextDefined = DbContextDefined.Replace("$(MARK_CODE)$", "//");
+            }
+            
 
             string DbContextFileName = $"{EntitiesName}.cs"; //string.Format("{0}Context.cs", EntitiesName);
 
             SQLStore store = new SQLStore();
 
-            //int count = 0;
-            DbSetDefined += "/* 請參考 Domain 專案後再將之取消註解\r\n";
+            if(!completeUsing)
+            {
+                DbSetDefined += "/* 請參考 Domain 專案後再將之取消註解\r\n";
+            }
+            
             foreach (string node in frmMyORMappingWindow.SelectedTables)
             {
-                DbSetDefined += string.Format("{1}public virtual DbSet<{0}> {0} {{ get; set; }}\r\n", node.ToUpperFirstWord().Replace(" ", "_"), "\t\t");
+                DbSetDefined += string.Format("{1}public virtual DbSet<{0}Ent> {0} {{ get; set; }}\r\n", node.ToUpperFirstWord().Replace(" ", "_"), "\t\t");
                 //count++;
             }
-            DbSetDefined += "\t\t*/";
+
+            if(!completeUsing)
+            {
+                DbSetDefined += "\t\t*/";
+            }
 
             DbContextDefined = DbContextDefined.Replace("$(DB_SET_DEF)$", DbSetDefined);
 
@@ -319,6 +361,7 @@ namespace CleanArchitectureCQRSTemplate.Common
             string ClassDefined = ClassDef.GetClassTemplate;
             string classEndWord = classType == CLASS_TYPE.DTO ? "Dto" : "Ent";
             string usingStatement = classType == CLASS_TYPE.ENTITY ? $"\nusing {project.Name}.Common;" : "";
+            string commandOrFolder = classType == CLASS_TYPE.ENTITY ? "Entities" : commandName;
 
             ClassDefined = ClassDefined.Replace("$(USING)$", usingStatement);
             if(string.IsNullOrEmpty(currentFolder))
@@ -331,7 +374,7 @@ namespace CleanArchitectureCQRSTemplate.Common
             }
             ClassDefined = ClassDefined.Replace("$(FOLDER_NAME)$", currentFolder);
             ClassDefined = ClassDefined.Replace("$(NAMESPACE_DEF)$", $"{project.Name}");
-            ClassDefined = ClassDefined.Replace("$(QUERY_COMMAND_NAME)$", $"{commandName}");
+            ClassDefined = ClassDefined.Replace("$(QUERY_COMMAND_NAME)$", $"{commandOrFolder}");
 
             ClassDefined = ClassDefined.Replace(
                     "$(CLASS_DEF)$",
@@ -396,6 +439,31 @@ namespace CleanArchitectureCQRSTemplate.Common
         public static T Cast<T>(object obj, T type)
         {
             return (T)obj;
+        }
+
+        /// <summary>
+        /// 從 DTE 服務中取得目前 Solution 中的所有專案名稱
+        /// </summary>
+        /// <param name="project"></param>
+        /// <param name="projectNames"></param>
+        /// <returns></returns>
+        public static List<string> GetProjectNameFromDTE(Project project)
+        {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
+
+            List<string> projectNames = new List<string>();
+
+            foreach (Project prj in project.DTE.Solution.Projects)
+            {
+                Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
+
+                if (prj.Name != project.Name)
+                {
+                    projectNames.Add(prj.Name);
+                }
+            }
+
+            return projectNames;
         }
     }
 }

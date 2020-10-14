@@ -28,23 +28,9 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
             ProjectItem modelsFolder = Utils.GetProjectItemFolder(project, PERSISTANCE_FOLDER)
                 .FirstOrDefault();
 
-            Utils.CreateDbContextFromSourceTables(project, modelsFolder);
+            List<string> projectNames = Utils.GetProjectNameFromDTE(project);
 
-            List<string> projectNames = new List<string>();
-
-            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
-
-            foreach (Project prj in project.DTE.Solution.Projects)
-            {
-                Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
-
-                if (prj.Name != project.Name)
-                {
-                    projectNames.Add(prj.Name);
-                }
-            }
-
-            if(projectNames.Count() > 0)
+            if (projectNames.Count() > 0)
             {
                 frmAddProjectsRef addPrjRef = new frmAddProjectsRef(projectNames);
 
@@ -65,7 +51,12 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
 
                 projectRoot.Save();
             }
+
+            // 2020/10/12 後修正為最後才產生 ApplicationDbContext 物件
+            Utils.CreateDbContextFromSourceTables(project, modelsFolder, projectNames);
         }
+
+        
 
         public void ProjectItemFinishedGenerating(ProjectItem projectItem)
         {

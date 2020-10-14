@@ -15,12 +15,12 @@ namespace CleanArchitectureCQRSTemplate.ClassesDef
         {
             get => @"using System;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;$(OTHER_NAMESPACE)$
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace $(NAMESPACE_DEF)$.Persistance
 {
-    public partial class $(ENTITIES_DEF)$ : DbContext //, IApplicationDbContext
+    public partial class $(ENTITIES_DEF)$ : DbContext $(MARK_CODE)$, IApplicationDbContext
     {
         public $(ENTITIES_DEF)$()
         {

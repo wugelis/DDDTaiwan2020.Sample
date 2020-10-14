@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Database");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Database");
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMyORMappingWindow));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.labDesc = new System.Windows.Forms.Label();
@@ -91,10 +92,10 @@
             this.treeView1.CheckBoxes = true;
             this.treeView1.Location = new System.Drawing.Point(16, 50);
             this.treeView1.Name = "treeView1";
-            treeNode2.Name = "Root";
-            treeNode2.Text = "Database";
+            treeNode1.Name = "Root";
+            treeNode1.Text = "Database";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2});
+            treeNode1});
             this.treeView1.Size = new System.Drawing.Size(247, 301);
             this.treeView1.TabIndex = 5;
             this.treeView1.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterCheck);
@@ -170,6 +171,7 @@
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMyORMappingWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clean Architecture CQRS (Schema to DbContext). Preview";

@@ -106,7 +106,10 @@ namespace CleanArchitectureCQRSTemplate.Forms
             {
                 if (e.Node.Checked)
                 {
-                    SelectedTables.Add(e.Node.Text);
+                    if(SelectedTables.Where(c => c == e.Node.Text).Count() <= 0)
+                    {
+                        SelectedTables.Add(e.Node.Text);
+                    }
                 }
                 else
                     SelectedTables.Remove(e.Node.Text);
