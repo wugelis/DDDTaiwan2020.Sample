@@ -274,7 +274,7 @@ namespace CleanArchitectureCQRSTemplate.Common
 
             string CommandHandlerFileName = $"Create{commandClassName}Command.cs";
 
-            //產生 GenericRepository 檔案，使用檔名 GenericRepository.cs 並先暫放在 Temp 資料夾下.
+            //產生 CQRS Create Command 檔案，並先暫放在 Temp 資料夾下.
             string TempPath = AddFile2ProjectItem(currentFolder, commandHandlerDefined, CommandHandlerFileName);
             //刪除掉暫存檔案
             try
@@ -328,7 +328,7 @@ namespace CleanArchitectureCQRSTemplate.Common
                 Environment.GetEnvironmentVariable("temp"),
                 csFileName);
 
-            //建立暫存的 Interface Provider Class 檔案
+            //建立暫存的 Class 檔案
             Common.Utils.CreateModelCSFile(contentDefined, TempPath);
             //加入暫存的 Class 檔案
             currentFolder.ProjectItems.AddFromFileCopy(TempPath);

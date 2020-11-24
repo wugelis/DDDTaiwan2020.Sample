@@ -38,7 +38,7 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
                     entityFolder, 
                     node, 
                     node, 
-                    false, 
+                    true, 
                     CLASS_TYPE.ENTITY);
             }
         }

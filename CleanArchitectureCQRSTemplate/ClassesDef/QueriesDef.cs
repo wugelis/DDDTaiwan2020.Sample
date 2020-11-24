@@ -34,18 +34,18 @@ namespace $(NAMESPACE_DEF)$.$(QUERY_COMMAND_NAME)$.Queries
     /// <summary>
     /// 查詢 Northwind 的 Customers 的命令
     /// </summary>
-    public class $(QUERY_COMMAND_NAME)$Query: IRequest<IEnumerable<$(QUERY_DTO)$>>
+    public class Get$(QUERY_COMMAND_NAME)$Query: IRequest<IEnumerable<$(QUERY_DTO)$>>
     {
-        public class $(QUERY_COMMAND_NAME)$QueryHandler : IRequestHandler<$(QUERY_COMMAND_NAME)$Query, IEnumerable<$(QUERY_DTO)$>>
+        public class Get$(QUERY_COMMAND_NAME)$QueryHandler : IRequestHandler<Get$(QUERY_COMMAND_NAME)$Query, IEnumerable<$(QUERY_DTO)$>>
         {
             private readonly IApplicationDbContext _context;
 
-            public $(QUERY_COMMAND_NAME)$QueryHandler(IApplicationDbContext context)
+            public Get$(QUERY_COMMAND_NAME)$QueryHandler(IApplicationDbContext context)
             {
                 _context = context;
             }
 
-            public async Task<IEnumerable<$(QUERY_DTO)$>> Handle($(QUERY_COMMAND_NAME)$Query request, CancellationToken cancellationToken)
+            public async Task<IEnumerable<$(QUERY_DTO)$>> Handle(Get$(QUERY_COMMAND_NAME)$Query request, CancellationToken cancellationToken)
             {
                 /* the Query Sample Code.
                 var result = await (from customer in _context.Customers
