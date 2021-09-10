@@ -1,6 +1,6 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="CleanArchitectureCQRSTemplate.bb2ae308-47f1-4e49-bac1-69181fd26c81" Version="1.0" Language="en-US" Publisher="Gelis" />
+    <Identity Id="CleanArchitectureCQRSTemplate.bb2ae308-47f1-4e49-bac1-69181fd26c81" Version="1.0" Language="zh-TW" Publisher="GelisWu" />
     <DisplayName>CleanArchitectureCQRSTemplate</DisplayName>
     <Description xml:space="preserve">Clean Architecture (CQRS) 的 (Application/Domain/Infrastructure) 層範本. (DDDTaiwan2020)</Description>
     <MoreInfo>http://gelis-dotnet.blogspot.com/</MoreInfo>

@@ -14,8 +14,12 @@
         "outputPath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\CleanArchitectureCQRSTemplate\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Gelis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,12 +27,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Gelis Documents\\MentorTrust\\志明科大\\教育訓練\\Samples\\Lab1\\nuget packages": {},
           "D:\\Gelis Documents\\MentorTrust\\旺宏電子\\SourceCode\\NuGet Package": {},
           "D:\\Gelis Documents\\MentorTrust\\野村證券\\SourceCode\\NuGet Package": {},
           "D:\\Gelis Documents\\文章圖片\\您的軟體架構夠敏捷嗎（二）-持續演進的軟體架構\\Samples\\ATMSolution\\PackageSources": {},
-          "D:\\Temp\\20201026\\Lab2Solution1\\NuGet Packages Source": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {

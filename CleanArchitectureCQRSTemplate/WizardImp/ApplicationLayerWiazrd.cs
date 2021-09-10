@@ -75,7 +75,7 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
             }
             #endregion
 
-            #region 勾選建立 CQRS Create Command
+            #region 勾選建立 CQRS Create Command Handler
             if (GlobalVar.GetSetApplicationLayerWizardForm.ChkCreateCommandState)
             {
                 if(CQRSFolder == null)
@@ -93,9 +93,47 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
                     GlobalVar.GetSetApplicationLayerWizardForm.GetQueryDtoName);
             }
             #endregion
+
+            #region 勾選建立 CQRS Update Command Handler
+            if (GlobalVar.GetSetApplicationLayerWizardForm.ChkUpdateCommandState)
+            {
+                if (CQRSFolder == null)
+                {
+                    CQRSFolder = Utils.CreateCQRSCommandFolder(project, QUERY_COMMAND_FOLDER, CQRSFolder);
+                }
+
+                ProjectItem currentFolder = null;
+                string queryFolderName = "Commands";
+                currentFolder = Utils.GetOrCreateCurrentFolder(CQRSFolder, queryFolderName);
+                Utils.UpdateCQRSCreateCommandClassFromSource(
+                    project,
+                    currentFolder,
+                    GlobalVar.GetSetApplicationLayerWizardForm.GetQueryCommandName,
+                    GlobalVar.GetSetApplicationLayerWizardForm.GetQueryDtoName);
+            }
+            #endregion
+
+            #region 勾選建立 CQRS Delete Command Handler
+            if (GlobalVar.GetSetApplicationLayerWizardForm.ChkDeleteCommandState)
+            {
+                if (CQRSFolder == null)
+                {
+                    CQRSFolder = Utils.CreateCQRSCommandFolder(project, QUERY_COMMAND_FOLDER, CQRSFolder);
+                }
+
+                ProjectItem currentFolder = null;
+                string queryFolderName = "Commands";
+                currentFolder = Utils.GetOrCreateCurrentFolder(CQRSFolder, queryFolderName);
+                Utils.DeleteCQRSCreateCommandClassFromSource(
+                    project,
+                    currentFolder,
+                    GlobalVar.GetSetApplicationLayerWizardForm.GetQueryCommandName,
+                    GlobalVar.GetSetApplicationLayerWizardForm.GetQueryDtoName);
+            }
+            #endregion
         }
-        
-        
+
+
 
         public void ProjectItemFinishedGenerating(ProjectItem projectItem)
         {

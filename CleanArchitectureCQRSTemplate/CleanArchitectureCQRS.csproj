@@ -30,8 +30,8 @@
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
     <IncludeDebugSymbolsInVSIXContainer>true</IncludeDebugSymbolsInVSIXContainer>
     <IncludeDebugSymbolsInLocalVSIXDeployment>true</IncludeDebugSymbolsInLocalVSIXDeployment>
-    <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
-    <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
+    <CopyBuildOutputToOutputDirectory>true</CopyBuildOutputToOutputDirectory>
+    <CopyOutputSymbolsToOutputDirectory>true</CopyOutputSymbolsToOutputDirectory>
     <StartAction>Program</StartAction>
     <StartProgram Condition="'$(DevEnvDir)' != ''">$(DevEnvDir)devenv.exe</StartProgram>
     <StartArguments>/rootsuffix Exp</StartArguments>
@@ -57,6 +57,7 @@
     <Compile Include="ClassesDef\ClassDef.cs" />
     <Compile Include="ClassesDef\CLASS_TYPE.cs" />
     <Compile Include="ClassesDef\DbContextDef.cs" />
+    <Compile Include="ClassesDef\DeleteCommandDef.cs" />
     <Compile Include="ClassesDef\UpdateCommandDef.cs" />
     <Compile Include="ClassesDef\CreateCommandDef.cs" />
     <Compile Include="ClassesDef\QueriesDef.cs" />

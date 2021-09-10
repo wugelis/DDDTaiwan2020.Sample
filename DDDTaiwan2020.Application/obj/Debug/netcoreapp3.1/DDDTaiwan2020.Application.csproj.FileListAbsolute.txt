@@ -18,3 +18,14 @@ D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Application\bin\Debug\netcor
 D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.csproj.CoreCompileInputs.cache
 D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.genruntimeconfig.cache
 D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.csprojAssemblyReference.cache
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Application.deps.json
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Application.runtimeconfig.json
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Application.runtimeconfig.dev.json
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Application.dll
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Application.pdb
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.AssemblyInfoInputs.cache
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.AssemblyInfo.cs
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.csproj.CoreCompileInputs.cache
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.dll
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.pdb
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Application\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Application.genruntimeconfig.cache

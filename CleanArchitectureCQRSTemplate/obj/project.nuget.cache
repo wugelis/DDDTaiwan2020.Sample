@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3Gn7hYM6UvhcUYPAubR+oQqSg82JFLD9xaXiLZVYD/ELI4LDoxMH6aIUggOZkBbcjzgI4a5+OHNsUrI4rSbw6Q==",
+  "dgSpecHash": "ivo4g3+cVX6Q1kdg5fc7tH1sPm7515MiaAljTno4n3OsjPs/bMXu2AlhtWLsrtfhHyRg3CIbjaftMAsaudealg==",
   "success": true,
   "projectFilePath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\CleanArchitectureCQRSTemplate\\CleanArchitectureCQRS.csproj",
   "expectedPackageFiles": [

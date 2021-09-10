@@ -16,3 +16,12 @@ D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3
 D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.csproj.CoreCompileInputs.cache
 D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.dll
 D:\Temp\DDD Taiwan 2020\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.pdb
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.deps.json
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.dll
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\bin\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.pdb
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.csprojAssemblyReference.cache
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.AssemblyInfoInputs.cache
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.AssemblyInfo.cs
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.csproj.CoreCompileInputs.cache
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.dll
+D:\Gelis Documents\教育訓練課程\實踐 Clean Architecture（創造有生命的軟件架構）\Samples\DDDTaiwan2020\DDDTaiwan2020.Domain\obj\Debug\netcoreapp3.1\DDDTaiwan2020.Domain.pdb

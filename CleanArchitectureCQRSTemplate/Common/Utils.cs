@@ -74,7 +74,20 @@ namespace CleanArchitectureCQRSTemplate.Common
             ProjectItem currentFolder;
             try
             {
-                currentFolder = CQRSFolder.ProjectItems.AddFolder(queryFolderName);
+                var queryFolder = CQRSFolder.ProjectItems.OfType<ProjectItem>()
+#pragma warning disable VSTHRD010 // 在主執行緒叫用單一執行緒類型
+                    .Where(c => c.Name == queryFolderName)
+#pragma warning restore VSTHRD010 // 在主執行緒叫用單一執行緒類型
+                    .FirstOrDefault();
+
+                if(queryFolder == null)
+                {
+                    currentFolder = CQRSFolder.ProjectItems.AddFolder(queryFolderName);
+                }
+                else
+                {
+                    currentFolder = queryFolder;
+                }
             }
             catch (NullReferenceException nex)
             {
@@ -101,7 +114,7 @@ namespace CleanArchitectureCQRSTemplate.Common
         /// <param name="QUERY_COMMAND_FOLDER"></param>
         /// <param name="CQRSFolder"></param>
         /// <returns></returns>
-        public static ProjectItem CreateCQRSCommandFolder(Project project, string QUERY_COMMAND_FOLDER, ProjectItem CQRSFolder)
+        internal static ProjectItem CreateCQRSCommandFolder(Project project, string QUERY_COMMAND_FOLDER, ProjectItem CQRSFolder)
         {
             IEnumerable<ProjectItem> resultEntity = Utils.GetProjectItemFolder(project, QUERY_COMMAND_FOLDER);
 
@@ -124,6 +137,76 @@ namespace CleanArchitectureCQRSTemplate.Common
                         .FirstOrDefault();
 
             return CQRSFolder;
+        }
+
+        /// <summary>
+        /// 建立 與 初始化 Update Command Handler for (CQRS)
+        /// </summary>
+        /// <param name="project"></param>
+        /// <param name="currentFolder"></param>
+        /// <param name="commandClassName"></param>
+        /// <param name="dtoClassName"></param>
+        internal static void UpdateCQRSCreateCommandClassFromSource(Project project, ProjectItem currentFolder, string commandClassName, string dtoClassName)
+        {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
+
+            SQLStore store = new SQLStore();
+            StringBuilder sb = new StringBuilder();
+            int columnOrder = 0;
+
+            string commandHandlerDefined = UpdateCommandDef.GetClassTemplate;
+
+            commandHandlerDefined = commandHandlerDefined.Replace("$(NAMESPACE_DEF)$", string.Format("{0}", project.Name));
+            commandHandlerDefined = commandHandlerDefined.Replace("$(CREATE_COMMAND_NAME)$", commandClassName);
+
+            ClassDef.GetClassProperties(store.GetNoDataDataTableByName(dtoClassName), new string[] { }, sb, columnOrder);
+            commandHandlerDefined = commandHandlerDefined.Replace("$(CLASS_PROPERTIES_DEF)$", sb.ToString());
+
+            string CommandHandlerFileName = $"Update{commandClassName}Command.cs";
+
+            //產生 CQRS Create Command 檔案，並先暫放在 Temp 資料夾下.
+            string TempPath = AddFile2ProjectItem(currentFolder, commandHandlerDefined, CommandHandlerFileName);
+            //刪除掉暫存檔案
+            try
+            {
+                File.Delete(TempPath);
+            }
+            catch (Exception ex) { } //非系統服務刪除暫存檔案若失敗不處理任何訊息（請手動清除 Temp 底下檔案）.
+        }
+
+        /// <summary>
+        /// 建立 與 初始化 Delete Command Handler for (CQRS)
+        /// </summary>
+        /// <param name="project"></param>
+        /// <param name="currentFolder"></param>
+        /// <param name="commandClassName"></param>
+        /// <param name="dtoClassName"></param>
+        internal static void DeleteCQRSCreateCommandClassFromSource(Project project, ProjectItem currentFolder, string commandClassName, string dtoClassName)
+        {
+            Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
+
+            SQLStore store = new SQLStore();
+            StringBuilder sb = new StringBuilder();
+            int columnOrder = 0;
+
+            string commandHandlerDefined = DeleteCommandDef.GetClassTemplate;
+
+            commandHandlerDefined = commandHandlerDefined.Replace("$(NAMESPACE_DEF)$", string.Format("{0}", project.Name));
+            commandHandlerDefined = commandHandlerDefined.Replace("$(CREATE_COMMAND_NAME)$", commandClassName);
+
+            ClassDef.GetClassProperties(store.GetNoDataDataTableByName(dtoClassName), new string[] { }, sb, columnOrder);
+            commandHandlerDefined = commandHandlerDefined.Replace("$(CLASS_PROPERTIES_DEF)$", sb.ToString());
+
+            string CommandHandlerFileName = $"Delete{commandClassName}Command.cs";
+
+            //產生 CQRS Create Command 檔案，並先暫放在 Temp 資料夾下.
+            string TempPath = AddFile2ProjectItem(currentFolder, commandHandlerDefined, CommandHandlerFileName);
+            //刪除掉暫存檔案
+            try
+            {
+                File.Delete(TempPath);
+            }
+            catch (Exception ex) { } //非系統服務刪除暫存檔案若失敗不處理任何訊息（請手動清除 Temp 底下檔案）.
         }
 
         /// <summary>
@@ -250,7 +333,7 @@ namespace CleanArchitectureCQRSTemplate.Common
 
         #region 初始化專案 Project 內容
         /// <summary>
-        /// 
+        /// 建立 與 初始化 Create Command Handler for (CQRS)
         /// </summary>
         /// <param name="project"></param>
         /// <param name="currentFolder"></param>
