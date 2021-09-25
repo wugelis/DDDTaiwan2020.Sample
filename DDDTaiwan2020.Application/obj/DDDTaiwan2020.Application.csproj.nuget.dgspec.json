@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Application\\DDDTaiwan2020.Application.csproj",
-        "projectName": "DDDTaiwan2020.Application",
+        "projectName": "Application",
         "projectPath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Application\\DDDTaiwan2020.Application.csproj",
         "packagesPath": "C:\\Users\\Gelis\\.nuget\\packages\\",
         "outputPath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Application\\obj\\",

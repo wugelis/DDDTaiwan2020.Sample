@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\Gelis\\.nuget\\packages\\": {},
@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Domain\\DDDTaiwan2020.Domain.csproj",
-      "projectName": "DDDTaiwan2020.Domain",
-      "projectPath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Domain\\DDDTaiwan2020.Domain.csproj",
+      "projectUniqueName": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Gelis\\.nuget\\packages\\",
       "outputPath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Domain\\obj\\",
       "projectStyle": "PackageReference",
@@ -31,7 +31,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -39,11 +39,13 @@
         "D:\\Gelis Documents\\MentorTrust\\旺宏電子\\SourceCode\\NuGet Package": {},
         "D:\\Gelis Documents\\MentorTrust\\野村證券\\SourceCode\\NuGet Package": {},
         "D:\\Gelis Documents\\文章圖片\\您的軟體架構夠敏捷嗎（二）-持續演進的軟體架構\\Samples\\ATMSolution\\PackageSources": {},
+        "D:\\Temp\\20201026\\Lab2Solution1\\NuGet Packages Source": {},
+        "http://GELIS-AERO/Simplo.NuGetServer/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -54,8 +56,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",

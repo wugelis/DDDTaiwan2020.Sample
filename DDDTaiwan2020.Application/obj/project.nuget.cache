@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IxOOTIYb2+2ibIkUwAk1UHyL/QcphV24KfOWPpMvTfzaanMQRpGJljVp/LUK4mgqG8+/K+NnANTk/aF0wUosLA==",
+  "dgSpecHash": "fLM7H69wH/LnJExzFGqLYoVMmxRfy1saKfjLDuDyywM4zHqfP8jbXjYgNIkO/eFaLQQzpL+pmKNpcJQjuepemw==",
   "success": true,
-  "projectFilePath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Application\\DDDTaiwan2020.Application.csproj",
+  "projectFilePath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gelis\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Gelis\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",

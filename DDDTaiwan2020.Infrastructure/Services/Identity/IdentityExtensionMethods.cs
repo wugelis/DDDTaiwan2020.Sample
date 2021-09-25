@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DDDTaiwan2020.Infrastructure.Services.Identity
+namespace Infrastructure.Services.Identity
 {
     /// <summary>
     /// 

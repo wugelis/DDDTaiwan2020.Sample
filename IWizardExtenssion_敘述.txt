@@ -1,0 +1,17 @@
+  <WizardExtension>
+	<Assembly>CleanArchitectureCQRSTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5c17f6b1ec946263</Assembly>
+	<FullClassName>CleanArchitectureCQRSTemplate.WizardImp.ApplicationLayerWiazrd</FullClassName>
+  </WizardExtension>
+  
+  <WizardExtension>
+	<Assembly>CleanArchitectureCQRSTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5c17f6b1ec946263</Assembly>
+	<FullClassName>CleanArchitectureCQRSTemplate.WizardImp.DomainLayerWizard</FullClassName>
+  </WizardExtension>
+  
+  <WizardExtension>
+	<Assembly>CleanArchitectureCQRSTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5c17f6b1ec946263</Assembly>
+	<FullClassName>CleanArchitectureCQRSTemplate.WizardImp.InfrastructureLayerWizard</FullClassName>
+  </WizardExtension>
+  
+  
+這是 Clean Architecture (CQRS) 所使用的 Infrastructure 範本

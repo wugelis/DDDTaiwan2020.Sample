@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace DDDTaiwan2020.Application.Users.Commands.NewUser
+namespace Application.Users.Commands.NewUser
 {
     /// <summary>
     /// 

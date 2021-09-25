@@ -1,10 +1,10 @@
-﻿using DDDTaiwan2020.Application.Common.Models;
+﻿using Application.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDDTaiwan2020.Application.Common.Interfaces
+namespace Application.Common.Interfaces
 {
     public interface IIdentityService
     {

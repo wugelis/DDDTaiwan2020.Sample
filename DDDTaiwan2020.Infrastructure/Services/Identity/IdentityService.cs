@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DDDTaiwan2020.Infrastructure.Services.Identity
+namespace Infrastructure.Services.Identity
 {
     /// <summary>
     /// .NET Core Identity 基礎識別（基本實作）

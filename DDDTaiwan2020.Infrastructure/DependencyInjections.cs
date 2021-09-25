@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DDDTaiwan2020.Infrastructure
+namespace Infrastructure
 {
     /// <summary>
     /// Infrstructure 相依性注入

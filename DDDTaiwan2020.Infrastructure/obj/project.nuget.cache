@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wp/wOXvDRj7SU/eJhDLKEsfvfVVvgyr8GgJ5KLsONDUtB/N7K8Hf0QfHv8cH2Y1Tsz6jgYQzciJoezB9EnQHlw==",
+  "dgSpecHash": "DYP0nHEKYFXsN+QW5EYA+YtMCK1qru0UCsen9x8FOQ7UF4i9zz9O5z24SysNZcfESg2iyz6buDfes+1z7Mzz8Q==",
   "success": true,
-  "projectFilePath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Infrastructure\\DDDTaiwan2020.Infrastructure.csproj",
+  "projectFilePath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gelis\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Gelis\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DDDTaiwan2020.Domain.Common
+namespace Domain.Common
 {
     /// <summary>
     /// 

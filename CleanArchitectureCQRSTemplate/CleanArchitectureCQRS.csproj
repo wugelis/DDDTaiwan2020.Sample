@@ -130,15 +130,19 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\DDDTaiwan2020.Application.zip">
+    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\Application.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\DDDTaiwan2020.Domain.zip">
+    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\Domain.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\DDDTaiwan2020.Infrastructure.zip">
+    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\Infrastructure.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\Web UI %28.NET 5%29 Template.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -157,10 +161,6 @@
     <None Include="Data\SQLStoreDataSet.xss">
       <DependentUpon>SQLStoreDataSet.xsd</DependentUpon>
     </None>
-    <Content Include="ProjectTemplates\Clean Architecture %28CQRS%29\1033\DDDTaiwan2020.WebUI.zip">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

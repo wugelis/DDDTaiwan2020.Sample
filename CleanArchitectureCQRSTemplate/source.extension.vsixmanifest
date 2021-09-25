@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CleanArchitectureCQRSTemplate.bb2ae308-47f1-4e49-bac1-69181fd26c81" Version="1.0" Language="zh-TW" Publisher="GelisWu" />
+        <Identity Id="CleanArchitectureCQRSTemplate.bb2ae308-47f1-4e49-bac1-69181fd26c81" Version="1.1" Language="zh-TW" Publisher="GelisWu" />
         <DisplayName>CleanArchitectureCQRSTemplate</DisplayName>
-        <Description xml:space="preserve">Clean Architecture (CQRS) 的 (Application/Domain/Infrastructure) 層範本. (DDDTaiwan2020)</Description>
+        <Description xml:space="preserve">Clean Architecture (CQRS) 的 (Application/Domain/Infrastructure/WebUI) 層範本. 
+
+使用 MediatR 為基礎的 CQRS 樣板。
+
+套件內提供：
+1. Application Services (包含精靈、CQRS Query/Create/Delete/Update CommandHandler 程式碼產生器)
+2. Domain Layer (包含精靈、Entities 程式碼產生器)
+3. Infrastructure (包含精靈，自動)
+4. UI = 使用 .NET 5 MVC</Description>
         <MoreInfo>http://gelis-dotnet.blogspot.com/</MoreInfo>
         <Icon>icons8_engineering_40px.png</Icon>
         <PreviewImage>icons8_engineering_40px.png</PreviewImage>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
-        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
-        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)" />
+        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Enterprise" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Application.zip" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Domain.zip" />
         <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" AssemblyName="|%CurrentProject%;AssemblyName|" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.Infrastructure.zip" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\DDDTaiwan2020.WebUI.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\Application.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\Domain.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\Infrastructure.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Clean Architecture (CQRS)\1033\Web UI (.NET 5) Template.zip" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,18.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
