@@ -29,6 +29,7 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
                 .FirstOrDefault();
 
             List<string> projectNames = Utils.GetProjectNameFromDTE(project);
+            string selectedProjectName = string.Empty;
 
             if (projectNames.Count() > 0)
             {
@@ -46,6 +47,7 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
                     {
                         ProjectItemGroupElement projectGroup01 = projectRoot.AddItemGroup();
                         projectGroup01.AddItem("ProjectReference", $"..\\{selectedPrjName}\\{selectedPrjName}.csproj");
+                        selectedProjectName = selectedPrjName;
                     }
                 }
 
@@ -53,7 +55,7 @@ namespace CleanArchitectureCQRSTemplate.WizardImp
             }
 
             // 2020/10/12 後修正為最後才產生 ApplicationDbContext 物件
-            Utils.CreateDbContextFromSourceTables(project, modelsFolder, projectNames);
+            Utils.CreateDbContextFromSourceTables(project, modelsFolder, projectNames, selectedProjectName);
         }
 
         

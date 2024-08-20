@@ -255,7 +255,8 @@ namespace CleanArchitectureCQRSTemplate.Common
         public static void CreateDbContextFromSourceTables(
             Project project, 
             ProjectItem modelsFolder, 
-            List<string> projectNames)
+            List<string> projectNames,
+            string selectProjectName)
         {
             Microsoft.VisualStudio.Shell.ThreadHelper.ThrowIfNotOnUIThread();
 
@@ -265,7 +266,7 @@ namespace CleanArchitectureCQRSTemplate.Common
 
             bool haveRefInfra = projectNames.Count() > 0; // 是否有參照 Infrastructure 專案
             bool completeUsing = false;
-            string appProjectName = haveRefInfra ? projectNames[0] : "";
+            string appProjectName = selectProjectName; //haveRefInfra ? projectNames[0] : "";
 
             DbContextDefined = DbContextDefined.Replace("$(NAMESPACE_DEF)$", string.Format("{0}", project.Name));
             DbContextDefined = DbContextDefined.Replace("$(ENTITIES_DEF)$", EntitiesName);

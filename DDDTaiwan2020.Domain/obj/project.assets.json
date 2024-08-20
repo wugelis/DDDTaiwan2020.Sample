@@ -1,16 +1,15 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net8.0": []
   },
   "packageFolders": {
     "C:\\Users\\Gelis\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -22,8 +21,7 @@
       "outputPath": "D:\\Gelis Documents\\教育訓練課程\\實踐 Clean Architecture（創造有生命的軟件架構）\\Samples\\DDDTaiwan2020\\DDDTaiwan2020.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Gelis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -31,21 +29,18 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Gelis Documents\\MentorTrust\\志明科大\\教育訓練\\Samples\\Lab1\\nuget packages": {},
-        "D:\\Gelis Documents\\MentorTrust\\旺宏電子\\SourceCode\\NuGet Package": {},
-        "D:\\Gelis Documents\\MentorTrust\\野村證券\\SourceCode\\NuGet Package": {},
-        "D:\\Gelis Documents\\文章圖片\\您的軟體架構夠敏捷嗎（二）-持續演進的軟體架構\\Samples\\ATMSolution\\PackageSources": {},
-        "D:\\Temp\\20201026\\Lab2Solution1\\NuGet Packages Source": {},
-        "http://GELIS-AERO/Simplo.NuGetServer/nuget": {},
+        "C:\\Users\\Gelis\\Desktop\\公司內教育訓練\\NuGet Packages Sources": {},
+        "D:\\Gelis Documents\\Mentortrust\\旺宏電子\\SourceCode\\NuGet Package": {},
+        "http://localhost/NuGetTesting/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -53,18 +48,24 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -73,8 +74,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "您正在使用 'HTTP' 來源 'http://localhost/NuGetTesting/nuget' 執行 'restore' 作業。未來的版本將移除非 HTTPS 存取。請考慮移轉至 'HTTPS' 來源。"
+    }
+  ]
 }

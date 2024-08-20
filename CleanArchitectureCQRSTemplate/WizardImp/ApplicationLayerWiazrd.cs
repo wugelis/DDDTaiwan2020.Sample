@@ -14,7 +14,7 @@ using System.Windows.Forms;
 namespace CleanArchitectureCQRSTemplate.WizardImp
 {
     /// <summary>
-    /// DDD Taiwan 2020 的 Clean Architecture (CQRS) 的 Application 範本精靈.
+    /// Clean Architecture (CQRS) 的 Application 範本精靈.
     /// </summary>
     public class ApplicationLayerWiazrd : IWizard
     {
